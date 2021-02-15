@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0008CA858F402D3E631BE0F1 /* Pods_NegativePlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */; };
 		2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */; };
 		2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */; };
 		2E76CFA225C19CF500B5D3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		2E76CFAD25C19CF600B5D3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */; };
 		2E76CFB825C19CF600B5D3CF /* NegativePlanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFB725C19CF600B5D3CF /* NegativePlanetTests.swift */; };
 		2E76CFC325C19CF600B5D3CF /* NegativePlanetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFC225C19CF600B5D3CF /* NegativePlanetUITests.swift */; };
+		5EEB621648BBD3CFE0A433C8 /* Pods_NegativePlanetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA22F522564CEEF05F0226 /* Pods_NegativePlanetTests.framework */; };
+		BF80B1542DA3B3EB8A9408EE /* Pods_NegativePlanet_NegativePlanetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AC4F97FFEC1F8A43067BE6 /* Pods_NegativePlanet_NegativePlanetUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25AC4F97FFEC1F8A43067BE6 /* Pods_NegativePlanet_NegativePlanetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativePlanet_NegativePlanetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76CF9A25C19CF500B5D3CF /* NegativePlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegativePlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,14 @@
 		2EED00CC25C1A08400A7F21B /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		2EED00CD25C1A08500A7F21B /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; };
 		2EED00CE25C1A08600A7F21B /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
+		2FAE5E6D47A60AB0CBA31124 /* Pods-NegativePlanet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet.debug.xcconfig"; sourceTree = "<group>"; };
+		6080D68F4F03AAD14F3F2D5A /* Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanetTests.release.xcconfig"; path = "Target Support Files/Pods-NegativePlanetTests/Pods-NegativePlanetTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativePlanet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE6696AB35D1CD126B0DF82 /* Pods-NegativePlanet-NegativePlanetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet-NegativePlanetUITests.release.xcconfig"; path = "Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2AA22F522564CEEF05F0226 /* Pods_NegativePlanetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativePlanetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF2B721A0C5B766C97C6FD8 /* Pods-NegativePlanet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet.release.xcconfig"; path = "Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet.release.xcconfig"; sourceTree = "<group>"; };
+		E60F4ABF935BF557690D4475 /* Pods-NegativePlanetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanetTests.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanetTests/Pods-NegativePlanetTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0008CA858F402D3E631BE0F1 /* Pods_NegativePlanet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EEB621648BBD3CFE0A433C8 /* Pods_NegativePlanetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF80B1542DA3B3EB8A9408EE /* Pods_NegativePlanet_NegativePlanetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +107,8 @@
 				2E76CFB625C19CF600B5D3CF /* NegativePlanetTests */,
 				2E76CFC125C19CF600B5D3CF /* NegativePlanetUITests */,
 				2E76CF9B25C19CF500B5D3CF /* Products */,
+				CFEFBC26AA1FD161CE4FCA60 /* Pods */,
+				398BBEB64C084707F7B4264E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +178,30 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		398BBEB64C084707F7B4264E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */,
+				25AC4F97FFEC1F8A43067BE6 /* Pods_NegativePlanet_NegativePlanetUITests.framework */,
+				B2AA22F522564CEEF05F0226 /* Pods_NegativePlanetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFEFBC26AA1FD161CE4FCA60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FAE5E6D47A60AB0CBA31124 /* Pods-NegativePlanet.debug.xcconfig */,
+				BCF2B721A0C5B766C97C6FD8 /* Pods-NegativePlanet.release.xcconfig */,
+				6080D68F4F03AAD14F3F2D5A /* Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig */,
+				ACE6696AB35D1CD126B0DF82 /* Pods-NegativePlanet-NegativePlanetUITests.release.xcconfig */,
+				E60F4ABF935BF557690D4475 /* Pods-NegativePlanetTests.debug.xcconfig */,
+				81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E76CFC725C19CF600B5D3CF /* Build configuration list for PBXNativeTarget "NegativePlanet" */;
 			buildPhases = (
+				288D00B5D291B89801C3380E /* [CP] Check Pods Manifest.lock */,
 				2E76CF9625C19CF500B5D3CF /* Sources */,
 				2E76CF9725C19CF500B5D3CF /* Frameworks */,
 				2E76CF9825C19CF500B5D3CF /* Resources */,
+				7EDCE0E49D2434C7ACE44C38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E76CFCA25C19CF600B5D3CF /* Build configuration list for PBXNativeTarget "NegativePlanetTests" */;
 			buildPhases = (
+				9DD2C1250F234968F7DEC847 /* [CP] Check Pods Manifest.lock */,
 				2E76CFAF25C19CF600B5D3CF /* Sources */,
 				2E76CFB025C19CF600B5D3CF /* Frameworks */,
 				2E76CFB125C19CF600B5D3CF /* Resources */,
@@ -203,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E76CFCD25C19CF600B5D3CF /* Build configuration list for PBXNativeTarget "NegativePlanetUITests" */;
 			buildPhases = (
+				65BD71982C036341C73F5CC1 /* [CP] Check Pods Manifest.lock */,
 				2E76CFBA25C19CF600B5D3CF /* Sources */,
 				2E76CFBB25C19CF600B5D3CF /* Frameworks */,
 				2E76CFBC25C19CF600B5D3CF /* Resources */,
+				43F98208C33B8C6CF7ED78B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +331,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		288D00B5D291B89801C3380E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NegativePlanet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F98208C33B8C6CF7ED78B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65BD71982C036341C73F5CC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NegativePlanet-NegativePlanetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDCE0E49D2434C7ACE44C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD2C1250F234968F7DEC847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NegativePlanetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E76CF9625C19CF500B5D3CF /* Sources */ = {
@@ -467,6 +616,7 @@
 		};
 		2E76CFC825C19CF600B5D3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAE5E6D47A60AB0CBA31124 /* Pods-NegativePlanet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +636,7 @@
 		};
 		2E76CFC925C19CF600B5D3CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF2B721A0C5B766C97C6FD8 /* Pods-NegativePlanet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,6 +656,7 @@
 		};
 		2E76CFCB25C19CF600B5D3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60F4ABF935BF557690D4475 /* Pods-NegativePlanetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +679,7 @@
 		};
 		2E76CFCC25C19CF600B5D3CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +702,7 @@
 		};
 		2E76CFCE25C19CF600B5D3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6080D68F4F03AAD14F3F2D5A /* Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -569,6 +723,7 @@
 		};
 		2E76CFCF25C19CF600B5D3CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE6696AB35D1CD126B0DF82 /* Pods-NegativePlanet-NegativePlanetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

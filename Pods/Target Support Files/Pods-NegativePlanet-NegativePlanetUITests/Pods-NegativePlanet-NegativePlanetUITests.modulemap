@@ -1,0 +1,6 @@
+framework module Pods_NegativePlanet_NegativePlanetUITests {
+  umbrella header "Pods-NegativePlanet-NegativePlanetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,101 @@
+PODS:
+  - Action (4.1.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - Alamofire (5.3.0)
+  - Differentiator (4.0.1)
+  - Kingfisher (6.1.0)
+  - ModelMapper (10.0.1):
+    - ModelMapper/Core (= 10.0.1)
+  - ModelMapper/Core (10.0.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya-ModelMapper/Core (10.0.0):
+    - ModelMapper (~> 10.0)
+    - Moya (~> 14.0)
+  - Moya-ModelMapper/RxSwift (10.0.0):
+    - Moya-ModelMapper/Core
+    - Moya/RxSwift (~> 14.0)
+    - RxSwift
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - ReactorKit (2.1.1):
+    - RxSwift (~> 5.0)
+    - WeakMapTable (~> 1.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxCoreData (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - WeakMapTable (1.2.0)
+
+DEPENDENCIES:
+  - Action
+  - Alamofire (~> 5.0)
+  - Kingfisher
+  - Moya-ModelMapper/RxSwift
+  - Moya/RxSwift (~> 14.0)
+  - "NSObject+Rx"
+  - ReactorKit
+  - RxCocoa
+  - RxCoreData
+  - RxDataSources
+  - RxKeyboard
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - ModelMapper
+    - Moya
+    - Moya-ModelMapper
+    - "NSObject+Rx"
+    - ReactorKit
+    - RxCocoa
+    - RxCoreData
+    - RxDataSources
+    - RxKeyboard
+    - RxRelay
+    - RxSwift
+    - WeakMapTable
+
+SPEC CHECKSUMS:
+  Action: 79e6c5dc91e13eea045ab6744b3e5609086671aa
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
+  ModelMapper: 0f68dd4300d0e27290c70f66492c7f795da21bcf
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Moya-ModelMapper: e3a478500921e7299804dc1ac550f1ebf3228ade
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  ReactorKit: 6d894a20c3d508344320901cd8e386fde92df4b6
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxCoreData: 1ed5f83e80facccc90fc054eb7f39a44177de56a
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
+
+PODFILE CHECKSUM: 3f81e487887d2c3aa7920a514a4aad685096805d
+
+COCOAPODS: 1.8.4
