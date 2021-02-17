@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0008CA858F402D3E631BE0F1 /* Pods_NegativePlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */; };
 		2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */; };
 		2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */; };
-		2E76CFA225C19CF500B5D3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* ViewController.swift */; };
+		2E76CFA225C19CF500B5D3CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */; };
 		2E76CFA525C19CF500B5D3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFA325C19CF500B5D3CF /* Main.storyboard */; };
 		2E76CFA825C19CF500B5D3CF /* NegativePlanet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */; };
 		2E76CFAA25C19CF600B5D3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFA925C19CF600B5D3CF /* Assets.xcassets */; };
 		2E76CFAD25C19CF600B5D3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */; };
 		2E76CFB825C19CF600B5D3CF /* NegativePlanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFB725C19CF600B5D3CF /* NegativePlanetTests.swift */; };
 		2E76CFC325C19CF600B5D3CF /* NegativePlanetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFC225C19CF600B5D3CF /* NegativePlanetUITests.swift */; };
+		531D1C9925DD0B0B004D1A77 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531D1C9825DD0B0B004D1A77 /* Colors.xcassets */; };
 		5EEB621648BBD3CFE0A433C8 /* Pods_NegativePlanetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA22F522564CEEF05F0226 /* Pods_NegativePlanetTests.framework */; };
 		BF80B1542DA3B3EB8A9408EE /* Pods_NegativePlanet_NegativePlanetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AC4F97FFEC1F8A43067BE6 /* Pods_NegativePlanet_NegativePlanetUITests.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +44,7 @@
 		2E76CF9A25C19CF500B5D3CF /* NegativePlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegativePlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E76CFA125C19CF500B5D3CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2E76CFA425C19CF500B5D3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E76CFA725C19CF500B5D3CF /* NegativePlanet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NegativePlanet.xcdatamodel; sourceTree = "<group>"; };
 		2E76CFA925C19CF600B5D3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		2EED00CD25C1A08500A7F21B /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; };
 		2EED00CE25C1A08600A7F21B /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
 		2FAE5E6D47A60AB0CBA31124 /* Pods-NegativePlanet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet.debug.xcconfig"; sourceTree = "<group>"; };
+		531D1C9825DD0B0B004D1A77 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		6080D68F4F03AAD14F3F2D5A /* Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanetTests.release.xcconfig"; path = "Target Support Files/Pods-NegativePlanetTests/Pods-NegativePlanetTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativePlanet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,9 +130,10 @@
 				2EED00C625C1A05700A7F21B /* Resources */,
 				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
 				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
-				2E76CFA125C19CF500B5D3CF /* ViewController.swift */,
+				2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */,
 				2E76CFA325C19CF500B5D3CF /* Main.storyboard */,
 				2E76CFA925C19CF600B5D3CF /* Assets.xcassets */,
+				531D1C9825DD0B0B004D1A77 /* Colors.xcassets */,
 				2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */,
 				2E76CFAE25C19CF600B5D3CF /* Info.plist */,
 				2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */,
@@ -198,7 +201,6 @@
 				E60F4ABF935BF557690D4475 /* Pods-NegativePlanetTests.debug.xcconfig */,
 				81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -311,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E76CFAD25C19CF600B5D3CF /* LaunchScreen.storyboard in Resources */,
+				531D1C9925DD0B0B004D1A77 /* Colors.xcassets in Resources */,
 				2E76CFAA25C19CF600B5D3CF /* Assets.xcassets in Resources */,
 				2E76CFA525C19CF500B5D3CF /* Main.storyboard in Resources */,
 			);
@@ -440,7 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E76CFA225C19CF500B5D3CF /* ViewController.swift in Sources */,
+				2E76CFA225C19CF500B5D3CF /* HomeViewController.swift in Sources */,
 				2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */,
 				2E76CFA825C19CF500B5D3CF /* NegativePlanet.xcdatamodeld in Sources */,
 				2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */,
