@@ -52,16 +52,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CSu-F4-Mia">
-                                <rect key="frame" x="0.0" y="270" width="375" height="193.66666666666663"/>
+                                <rect key="frame" x="0.0" y="270" width="375" height="188"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="즐겨찾는 카테고리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cou-fO-PpJ">
-                                        <rect key="frame" x="22" y="10.000000000000002" width="137.66666666666666" height="26.666666666666671"/>
+                                        <rect key="frame" x="22" y="10" width="129.66666666666666" height="21"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="18"/>
                                         <color key="textColor" name="labelWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="더보기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6s-xF-aII">
-                                        <rect key="frame" x="305" y="7.3333333333333144" width="48" height="32"/>
+                                        <rect key="frame" x="305" y="4.6666666666666856" width="48" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="48" id="Vbj-c7-03Q"/>
                                             <constraint firstAttribute="height" constant="32" id="ypn-TX-XW6"/>
@@ -71,7 +71,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7Jb-Mc-w8Q">
-                                        <rect key="frame" x="0.0" y="46.666666666666686" width="375" height="147"/>
+                                        <rect key="frame" x="0.0" y="41" width="375" height="147"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="147" id="Uff-X9-BUP"/>
@@ -92,7 +92,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOw-fb-heD">
-                                                            <rect key="frame" x="46" y="117" width="36" height="21"/>
+                                                            <rect key="frame" x="47" y="117" width="34.333333333333343" height="16.333333333333343"/>
                                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
                                                             <color key="textColor" name="#veryLightPinkFive"/>
                                                             <nil key="highlightedColor"/>
@@ -138,16 +138,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y12-xF-ItT">
-                                <rect key="frame" x="0.0" y="479" width="375" height="183"/>
+                                <rect key="frame" x="0.0" y="473.33333333333326" width="375" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이번 주 고민글" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92Q-zx-hbo">
-                                        <rect key="frame" x="22.000000000000007" y="10.000000000000002" width="109.66666666666669" height="26.666666666666671"/>
+                                        <rect key="frame" x="22.000000000000007" y="10" width="103.66666666666669" height="21"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="18"/>
                                         <color key="textColor" name="labelWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLZ-zk-VqJ">
-                                        <rect key="frame" x="22" y="52.666666666666629" width="331" height="120"/>
+                                        <rect key="frame" x="22" y="47.000000000000057" width="331" height="120"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="즐겨찾는 카테고리" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdt-D1-QfO">
                                                 <rect key="frame" x="14" y="19" width="137.66666666666666" height="26.666666666666671"/>

@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import ReactorKit
+import RxSwift
 
 class HomeViewController: UIViewController {
 
@@ -33,7 +35,10 @@ class HomeViewController: UIViewController {
         self.concernView.layer.addSublayer(gradientLayer)
         
     }
+    
+    
 }
+
 extension HomeViewController : UICollectionViewDelegate,UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
