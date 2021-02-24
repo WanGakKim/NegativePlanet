@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var _view : UIView!
     @IBOutlet weak var collectionView : UICollectionView!
     @IBOutlet weak var concernView: UIView!
+    @IBOutlet weak var tabBar: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -33,7 +34,25 @@ class HomeViewController: UIViewController {
         gradientLayer.colors = [UIColor.init(red: 61/255, green: 111/255, blue: 233/255, alpha: 1).cgColor,UIColor.init(red: 98/255, green: 139/255, blue: 224/255, alpha: 1).cgColor]
         self.concernView.layer.cornerRadius = 14
         self.concernView.layer.addSublayer(gradientLayer)
+        self.concernView.layer.insertSublayer(gradientLayer, at: 0)
         
+        //기분 리포트
+        //
+//        var yourView = UIView(frame: .init(x: 0, y: 0, width: 56, height: 56))
+//        yourView.clipsToBounds = true
+//        yourView.layer.cornerRadius = yourView.frame.height/2
+//
+//        yourView.backgroundColor = .red
+//
+//        var yourViewBorder = CAShapeLayer()
+//        yourViewBorder.strokeColor = UIColor.green.cgColor
+//        yourViewBorder.lineWidth
+//        yourViewBorder.lineDashPattern = [4, 4]
+//        yourViewBorder.frame = yourView.bounds
+//        yourViewBorder.path = UIBezierPath(roundedRect: yourView.bounds, cornerRadius: yourView.frame.height/2).cgPath
+//        yourView.layer.addSublayer(yourViewBorder)
+
+        tabBar.layer.cornerRadius = tabBar.frame.height/2
     }
     
     
