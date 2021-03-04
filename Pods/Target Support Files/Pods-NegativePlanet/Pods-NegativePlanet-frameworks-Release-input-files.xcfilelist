@@ -1,8 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Action/Action.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CGFloatLiteral/CGFloatLiteral.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
-${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework
 ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
 ${BUILT_PRODUCTS_DIR}/Moya-ModelMapper/Moya_ModelMapper.framework
@@ -14,4 +14,5 @@ ${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
 ${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework
 ${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
 ${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/WeakMapTable/WeakMapTable.framework
