@@ -25,7 +25,7 @@ target 'NegativePlanet' do
 
   # Misc
   pod 'CGFloatLiteral'
-  pod 'Then'
+  
 
   # pod 'Kingfisher'
   # pod 'JTAppleCalendar'
