@@ -179,8 +179,6 @@
 				2EED00C625C1A05700A7F21B /* Resources */,
 				2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */,
 				2E76CFA325C19CF500B5D3CF /* Main.storyboard */,
-				2E76CFA925C19CF600B5D3CF /* Assets.xcassets */,
-				531D1C9825DD0B0B004D1A77 /* Colors.xcassets */,
 				2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */,
 				2E76CFAE25C19CF600B5D3CF /* Info.plist */,
 				2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */,
@@ -240,6 +238,8 @@
 		2EED00C625C1A05700A7F21B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2E76CFA925C19CF600B5D3CF /* Assets.xcassets */,
+				531D1C9825DD0B0B004D1A77 /* Colors.xcassets */,
 				2EED00C725C1A06500A7F21B /* Fonts */,
 			);
 			path = Resources;
