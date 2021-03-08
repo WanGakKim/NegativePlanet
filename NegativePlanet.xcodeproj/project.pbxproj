@@ -154,8 +154,6 @@
 				53F8E57125E3A3DD00292569 /* Search */,
 				53F8E56125E3A31C00292569 /* Onboarding */,
 				2EED00C625C1A05700A7F21B /* Resources */,
-				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
-				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
 				2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */,
 				2E76CFA325C19CF500B5D3CF /* Main.storyboard */,
 				2E76CFA925C19CF600B5D3CF /* Assets.xcassets */,
@@ -203,6 +201,8 @@
 		2ECA5A1F25F117350080C81F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
+				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
 				2ECA5A6825F11C4E0080C81F /* Base */,
 				2ECA5A1D25F117210080C81F /* Login */,
 			);
