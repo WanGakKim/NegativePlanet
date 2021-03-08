@@ -148,6 +148,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2E7071AD25F621ED00F72F42 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2E76CFAE25C19CF600B5D3CF /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		2E76CF9125C19CF500B5D3CF = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +185,6 @@
 				2EED00C625C1A05700A7F21B /* Resources */,
 				2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */,
 				2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */,
-				2E76CFAE25C19CF600B5D3CF /* Info.plist */,
 				2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */,
 			);
 			path = NegativePlanet;
@@ -212,6 +219,7 @@
 		2ECA5A1F25F117350080C81F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2E7071AD25F621ED00F72F42 /* Support */,
 				53F8E57125E3A3DD00292569 /* Search */,
 				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
 				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
@@ -717,7 +725,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TX6N2R4D3L;
-				INFOPLIST_FILE = NegativePlanet/Info.plist;
+				INFOPLIST_FILE = NegativePlanet/Sources/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -737,7 +745,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TX6N2R4D3L;
-				INFOPLIST_FILE = NegativePlanet/Info.plist;
+				INFOPLIST_FILE = NegativePlanet/Sources/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
