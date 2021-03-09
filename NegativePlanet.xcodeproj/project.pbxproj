@@ -156,6 +156,16 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		2E7071BA25F784DF00F72F42 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				53F8E57125E3A3DD00292569 /* Search */,
+				2ECA5A1D25F117210080C81F /* Login */,
+			);
+			name = Scenes;
+			path = ../Scenes;
+			sourceTree = "<group>";
+		};
 		2E76CF9125C19CF500B5D3CF = {
 			isa = PBXGroup;
 			children = (
@@ -219,13 +229,12 @@
 		2ECA5A1F25F117350080C81F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				53F8E57125E3A3DD00292569 /* Search */,
 				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
 				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
 				2E1446C525F615EC0047F634 /* Types */,
 				2E1446B025F6155F0047F634 /* Services */,
 				2ECA5A6825F11C4E0080C81F /* Base */,
-				2ECA5A1D25F117210080C81F /* Login */,
+				2E7071BA25F784DF00F72F42 /* Scenes */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
