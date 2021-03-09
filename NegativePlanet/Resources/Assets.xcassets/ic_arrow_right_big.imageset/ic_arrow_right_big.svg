@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_go_big" width="28" height="30" viewBox="0 0 28 30">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_3718" transform="translate(-293.995 -768.094)">
+        <path id="선_381" d="M0 9.832L9.005 0" class="cls-1" transform="translate(303.995 783.074)"/>
+        <path id="선_382" d="M0 0L9.005 9.832" class="cls-1" transform="translate(303.995 773.094)"/>
+    </g>
+    <path id="사각형_2127" fill="none" d="M0 0H28V30H0z"/>
+</svg>

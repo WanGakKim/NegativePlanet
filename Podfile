@@ -1,15 +1,14 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '12.4'
-
-
+platform :ios, '10.0'
 
 target 'NegativePlanet' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for NegativePlanet
-  # update 2021.02.15 by Wangak.
+  # update 2021.03.04 by WangakKim.
 
+  # Architecture
+  pod 'ReactorKit'
+
+  # Rx
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Action'
@@ -19,9 +18,17 @@ target 'NegativePlanet' do
   pod 'Alamofire', '~> 5.0'
   pod 'Moya/RxSwift', '~> 14.0'
   pod 'Moya-ModelMapper/RxSwift'
-
   pod 'RxKeyboard'
-  pod 'Kingfisher'
+
+  # UI
+  pod 'SnapKit'
+
+  # Misc
+  pod 'CGFloatLiteral'
+  pod 'Then'
+  
+
+  # pod 'Kingfisher'
   # pod 'JTAppleCalendar'
   # pod 'JWTDecode', '~> 2.4'
   # pod 'Firebase/Analytics'

@@ -3,20 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0008CA858F402D3E631BE0F1 /* Pods_NegativePlanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */; };
+		2E1446B325F615760047F634 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1446B225F615760047F634 /* BaseService.swift */; };
+		2E1446BB25F615A70047F634 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1446BA25F615A70047F634 /* ServiceProvider.swift */; };
+		2E1446C025F615D40047F634 /* UserDefalutsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1446BF25F615D40047F634 /* UserDefalutsService.swift */; };
+		2E1446C725F616010047F634 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1446C625F616010047F634 /* UserDefaultsKey.swift */; };
+		2E70718825F618CB00F72F42 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70718725F618CB00F72F42 /* BaseModel.swift */; };
+		2E7071BF25F786D800F72F42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7071BE25F786D800F72F42 /* HomeViewController.swift */; };
 		2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */; };
 		2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */; };
-		2E76CFA225C19CF500B5D3CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* ViewController.swift */; };
-		2E76CFA525C19CF500B5D3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFA325C19CF500B5D3CF /* Main.storyboard */; };
+		2E76CFA225C19CF500B5D3CF /* HomeViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* HomeViewController2.swift */; };
 		2E76CFA825C19CF500B5D3CF /* NegativePlanet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */; };
 		2E76CFAA25C19CF600B5D3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFA925C19CF600B5D3CF /* Assets.xcassets */; };
 		2E76CFAD25C19CF600B5D3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */; };
 		2E76CFB825C19CF600B5D3CF /* NegativePlanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFB725C19CF600B5D3CF /* NegativePlanetTests.swift */; };
 		2E76CFC325C19CF600B5D3CF /* NegativePlanetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFC225C19CF600B5D3CF /* NegativePlanetUITests.swift */; };
+		2ECA5A2125F117760080C81F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECA5A2025F117760080C81F /* LoginViewController.swift */; };
+		2ECA5A6A25F11C590080C81F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECA5A6925F11C590080C81F /* BaseViewController.swift */; };
+		531D1C9925DD0B0B004D1A77 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531D1C9825DD0B0B004D1A77 /* Colors.xcassets */; };
+		53F8E57525E3A40000292569 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8E57425E3A40000292569 /* SearchViewController.swift */; };
 		5EEB621648BBD3CFE0A433C8 /* Pods_NegativePlanetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA22F522564CEEF05F0226 /* Pods_NegativePlanetTests.framework */; };
 		BF80B1542DA3B3EB8A9408EE /* Pods_NegativePlanet_NegativePlanetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AC4F97FFEC1F8A43067BE6 /* Pods_NegativePlanet_NegativePlanetUITests.framework */; };
 /* End PBXBuildFile section */
@@ -40,11 +49,16 @@
 
 /* Begin PBXFileReference section */
 		25AC4F97FFEC1F8A43067BE6 /* Pods_NegativePlanet_NegativePlanetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativePlanet_NegativePlanetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1446B225F615760047F634 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		2E1446BA25F615A70047F634 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		2E1446BF25F615D40047F634 /* UserDefalutsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefalutsService.swift; sourceTree = "<group>"; };
+		2E1446C625F616010047F634 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		2E70718725F618CB00F72F42 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		2E7071BE25F786D800F72F42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2E76CF9A25C19CF500B5D3CF /* NegativePlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegativePlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E76CFA125C19CF500B5D3CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E76CFA425C19CF500B5D3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E76CFA125C19CF500B5D3CF /* HomeViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController2.swift; sourceTree = "<group>"; };
 		2E76CFA725C19CF500B5D3CF /* NegativePlanet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NegativePlanet.xcdatamodel; sourceTree = "<group>"; };
 		2E76CFA925C19CF600B5D3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E76CFAC25C19CF600B5D3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +69,8 @@
 		2E76CFBE25C19CF600B5D3CF /* NegativePlanetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegativePlanetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76CFC225C19CF600B5D3CF /* NegativePlanetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativePlanetUITests.swift; sourceTree = "<group>"; };
 		2E76CFC425C19CF600B5D3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECA5A2025F117760080C81F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2ECA5A6925F11C590080C81F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2EED00C825C1A08100A7F21B /* NotoSansCJKkr-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Thin.otf"; sourceTree = "<group>"; };
 		2EED00C925C1A08200A7F21B /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		2EED00CA25C1A08300A7F21B /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; };
@@ -63,6 +79,8 @@
 		2EED00CD25C1A08500A7F21B /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; };
 		2EED00CE25C1A08600A7F21B /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
 		2FAE5E6D47A60AB0CBA31124 /* Pods-NegativePlanet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanet/Pods-NegativePlanet.debug.xcconfig"; sourceTree = "<group>"; };
+		531D1C9825DD0B0B004D1A77 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		53F8E57425E3A40000292569 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6080D68F4F03AAD14F3F2D5A /* Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig"; path = "Target Support Files/Pods-NegativePlanet-NegativePlanetUITests/Pods-NegativePlanet-NegativePlanetUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NegativePlanetTests.release.xcconfig"; path = "Target Support Files/Pods-NegativePlanetTests/Pods-NegativePlanetTests.release.xcconfig"; sourceTree = "<group>"; };
 		A0D02DDA7CD09156E707D8AD /* Pods_NegativePlanet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NegativePlanet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +118,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1446B025F6155F0047F634 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E1446B225F615760047F634 /* BaseService.swift */,
+				2E1446BA25F615A70047F634 /* ServiceProvider.swift */,
+				2E1446BF25F615D40047F634 /* UserDefalutsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2E1446C525F615EC0047F634 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2E1446C625F616010047F634 /* UserDefaultsKey.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		2E36760B25ECAD2E00E063EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E36760C25ECAD5000E063EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E7071AD25F621ED00F72F42 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2E76CFAE25C19CF600B5D3CF /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2E7071BA25F784DF00F72F42 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2E7071BB25F786BE00F72F42 /* Home */,
+				53F8E57125E3A3DD00292569 /* Search */,
+				2ECA5A1D25F117210080C81F /* Login */,
+			);
+			name = Scenes;
+			path = ../Scenes;
+			sourceTree = "<group>";
+		};
+		2E7071BB25F786BE00F72F42 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E7071BE25F786D800F72F42 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		2E76CF9125C19CF500B5D3CF = {
 			isa = PBXGroup;
 			children = (
@@ -125,14 +202,10 @@
 		2E76CF9C25C19CF500B5D3CF /* NegativePlanet */ = {
 			isa = PBXGroup;
 			children = (
+				2ECA5A1F25F117350080C81F /* Sources */,
+				2E7071AD25F621ED00F72F42 /* Support */,
 				2EED00C625C1A05700A7F21B /* Resources */,
-				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
-				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
-				2E76CFA125C19CF500B5D3CF /* ViewController.swift */,
-				2E76CFA325C19CF500B5D3CF /* Main.storyboard */,
-				2E76CFA925C19CF600B5D3CF /* Assets.xcassets */,
-				2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */,
-				2E76CFAE25C19CF600B5D3CF /* Info.plist */,
+				2E76CFA125C19CF500B5D3CF /* HomeViewController2.swift */,
 				2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */,
 			);
 			path = NegativePlanet;
@@ -156,9 +229,42 @@
 			path = NegativePlanetUITests;
 			sourceTree = "<group>";
 		};
+		2ECA5A1D25F117210080C81F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2ECA5A2025F117760080C81F /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2ECA5A1F25F117350080C81F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */,
+				2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */,
+				2E1446C525F615EC0047F634 /* Types */,
+				2E1446B025F6155F0047F634 /* Services */,
+				2ECA5A6825F11C4E0080C81F /* Base */,
+				2E7071BA25F784DF00F72F42 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2ECA5A6825F11C4E0080C81F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E70718725F618CB00F72F42 /* BaseModel.swift */,
+				2ECA5A6925F11C590080C81F /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		2EED00C625C1A05700A7F21B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2E76CFA925C19CF600B5D3CF /* Assets.xcassets */,
+				531D1C9825DD0B0B004D1A77 /* Colors.xcassets */,
+				2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */,
 				2EED00C725C1A06500A7F21B /* Fonts */,
 			);
 			path = Resources;
@@ -188,6 +294,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		53F8E57125E3A3DD00292569 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2E36760C25ECAD5000E063EB /* Model */,
+				2E36760B25ECAD2E00E063EB /* ViewModel */,
+				53F8E57225E3A3EB00292569 /* ViewControllers */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		53F8E57225E3A3EB00292569 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53F8E57425E3A40000292569 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CFEFBC26AA1FD161CE4FCA60 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,7 +322,6 @@
 				E60F4ABF935BF557690D4475 /* Pods-NegativePlanetTests.debug.xcconfig */,
 				81DD28B4BD850EFEAF0826E3 /* Pods-NegativePlanetTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -311,8 +434,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E76CFAD25C19CF600B5D3CF /* LaunchScreen.storyboard in Resources */,
+				531D1C9925DD0B0B004D1A77 /* Colors.xcassets in Resources */,
 				2E76CFAA25C19CF600B5D3CF /* Assets.xcassets in Resources */,
-				2E76CFA525C19CF500B5D3CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +563,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E76CFA225C19CF500B5D3CF /* ViewController.swift in Sources */,
+				2E1446BB25F615A70047F634 /* ServiceProvider.swift in Sources */,
+				2E1446B325F615760047F634 /* BaseService.swift in Sources */,
+				2ECA5A2125F117760080C81F /* LoginViewController.swift in Sources */,
+				53F8E57525E3A40000292569 /* SearchViewController.swift in Sources */,
+				2E1446C025F615D40047F634 /* UserDefalutsService.swift in Sources */,
+				2E76CFA225C19CF500B5D3CF /* HomeViewController2.swift in Sources */,
+				2E70718825F618CB00F72F42 /* BaseModel.swift in Sources */,
 				2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */,
 				2E76CFA825C19CF500B5D3CF /* NegativePlanet.xcdatamodeld in Sources */,
+				2ECA5A6A25F11C590080C81F /* BaseViewController.swift in Sources */,
 				2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */,
+				2E7071BF25F786D800F72F42 /* HomeViewController.swift in Sources */,
+				2E1446C725F616010047F634 /* UserDefaultsKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,14 +611,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E76CFA325C19CF500B5D3CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E76CFA425C19CF500B5D3CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -622,7 +746,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TX6N2R4D3L;
-				INFOPLIST_FILE = NegativePlanet/Info.plist;
+				INFOPLIST_FILE = NegativePlanet/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,7 +766,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TX6N2R4D3L;
-				INFOPLIST_FILE = NegativePlanet/Info.plist;
+				INFOPLIST_FILE = NegativePlanet/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

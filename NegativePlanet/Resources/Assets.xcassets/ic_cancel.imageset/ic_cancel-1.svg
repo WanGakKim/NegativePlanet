@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_cancel" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="x-2" transform="translate(10 10)">
+        <path id="선_493" d="M12 0L0 12" class="cls-1"/>
+        <path id="선_494" d="M0 0L12 12" class="cls-1"/>
+    </g>
+    <path id="사각형_2143" fill="none" d="M0 0H32V32H0z" opacity="0.2"/>
+</svg>
