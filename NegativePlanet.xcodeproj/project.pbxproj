@@ -13,9 +13,10 @@
 		2E1446C025F615D40047F634 /* UserDefalutsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1446BF25F615D40047F634 /* UserDefalutsService.swift */; };
 		2E1446C725F616010047F634 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1446C625F616010047F634 /* UserDefaultsKey.swift */; };
 		2E70718825F618CB00F72F42 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70718725F618CB00F72F42 /* BaseModel.swift */; };
+		2E7071BF25F786D800F72F42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7071BE25F786D800F72F42 /* HomeViewController.swift */; };
 		2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */; };
 		2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */; };
-		2E76CFA225C19CF500B5D3CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */; };
+		2E76CFA225C19CF500B5D3CF /* HomeViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA125C19CF500B5D3CF /* HomeViewController2.swift */; };
 		2E76CFA825C19CF500B5D3CF /* NegativePlanet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */; };
 		2E76CFAA25C19CF600B5D3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFA925C19CF600B5D3CF /* Assets.xcassets */; };
 		2E76CFAD25C19CF600B5D3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E76CFAB25C19CF600B5D3CF /* LaunchScreen.storyboard */; };
@@ -53,10 +54,11 @@
 		2E1446BF25F615D40047F634 /* UserDefalutsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefalutsService.swift; sourceTree = "<group>"; };
 		2E1446C625F616010047F634 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
 		2E70718725F618CB00F72F42 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		2E7071BE25F786D800F72F42 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2E76CF9A25C19CF500B5D3CF /* NegativePlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegativePlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76CF9D25C19CF500B5D3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E76CF9F25C19CF500B5D3CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E76CFA125C19CF500B5D3CF /* HomeViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController2.swift; sourceTree = "<group>"; };
 		2E76CFA725C19CF500B5D3CF /* NegativePlanet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NegativePlanet.xcdatamodel; sourceTree = "<group>"; };
 		2E76CFA925C19CF600B5D3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E76CFAC25C19CF600B5D3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -159,11 +161,20 @@
 		2E7071BA25F784DF00F72F42 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2E7071BB25F786BE00F72F42 /* Home */,
 				53F8E57125E3A3DD00292569 /* Search */,
 				2ECA5A1D25F117210080C81F /* Login */,
 			);
 			name = Scenes;
 			path = ../Scenes;
+			sourceTree = "<group>";
+		};
+		2E7071BB25F786BE00F72F42 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E7071BE25F786D800F72F42 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		2E76CF9125C19CF500B5D3CF = {
@@ -194,7 +205,7 @@
 				2ECA5A1F25F117350080C81F /* Sources */,
 				2E7071AD25F621ED00F72F42 /* Support */,
 				2EED00C625C1A05700A7F21B /* Resources */,
-				2E76CFA125C19CF500B5D3CF /* HomeViewController.swift */,
+				2E76CFA125C19CF500B5D3CF /* HomeViewController2.swift */,
 				2E76CFA625C19CF500B5D3CF /* NegativePlanet.xcdatamodeld */,
 			);
 			path = NegativePlanet;
@@ -557,12 +568,13 @@
 				2ECA5A2125F117760080C81F /* LoginViewController.swift in Sources */,
 				53F8E57525E3A40000292569 /* SearchViewController.swift in Sources */,
 				2E1446C025F615D40047F634 /* UserDefalutsService.swift in Sources */,
-				2E76CFA225C19CF500B5D3CF /* HomeViewController.swift in Sources */,
+				2E76CFA225C19CF500B5D3CF /* HomeViewController2.swift in Sources */,
 				2E70718825F618CB00F72F42 /* BaseModel.swift in Sources */,
 				2E76CF9E25C19CF500B5D3CF /* AppDelegate.swift in Sources */,
 				2E76CFA825C19CF500B5D3CF /* NegativePlanet.xcdatamodeld in Sources */,
 				2ECA5A6A25F11C590080C81F /* BaseViewController.swift in Sources */,
 				2E76CFA025C19CF500B5D3CF /* SceneDelegate.swift in Sources */,
+				2E7071BF25F786D800F72F42 /* HomeViewController.swift in Sources */,
 				2E1446C725F616010047F634 /* UserDefaultsKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
